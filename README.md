@@ -85,7 +85,8 @@ Run Mocha & Chai tests:
 ```
 
 ## Contributors
-- [Ari Hecht](https://github.com/<Arihecht>)
+- [Ari Hecht](https://github.com/Arihecht)
+
 
 
 
