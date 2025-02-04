@@ -1,0 +1,30 @@
+/* Container for the search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Input field for search */
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Search button styling */
+  .search-button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for search button */
+  .search-button:hover {
+    background-color: #14347c;
+  }
+  

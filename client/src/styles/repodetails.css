@@ -1,0 +1,23 @@
+/* Repository Details Container */
+.repo-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Commit List Styling */
+  .commit-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual Commit Item */
+  .commit-list li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  

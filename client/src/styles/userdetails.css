@@ -1,0 +1,29 @@
+/* User Details Container */
+.user-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* User Avatar Styling */
+  .user-avatar {
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  /* Repository List Styling */
+  .repo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual Repository Item */
+  .repo-list li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  

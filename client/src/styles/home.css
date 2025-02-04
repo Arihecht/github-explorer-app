@@ -1,0 +1,81 @@
+/* Home Page Styles */
+.home-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .home-container h1 {
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Search Box */
+  .search-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #1e3a8a;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .search-box:focus {
+    border-color: #14347c;
+  }
+  
+  /* Button Styling */
+  .search-button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #14347c;
+  }
+  
+  /* List Styling */
+  .user-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .user-list li {
+    background: #e3e7f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .user-list li:hover {
+    background: #d1d8ec;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .home-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .search-box {
+      width: 90%;
+    }
+  }
+  
